@@ -60,6 +60,7 @@ defmodule Adoptoposs.MixProject do
       {:quantum, "~> 3.0"},
       {:new_relic_phoenix, "~> 0.4"},
       {:ecto_enum, "~> 1.4"},
+      {:email_checker, "~> 0.1.4"},
       {:mix_test_watch, "~> 1.0", only: :dev, runtime: false},
       {:faker, "~> 0.16", only: [:dev, :test]},
       {:ex_machina, "~> 2.7", only: [:dev, :test]},
